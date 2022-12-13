@@ -44,7 +44,7 @@ Resources:
           ViewerProtocolPolicy: allow-all
         Enabled: true
         IPV6Enabled: true
-        CNAMEs:
+        Aliases:
           - !Ref DomainName
         ViewerCertificate:
           AcmCertificateArn: !Ref CertificateArn
